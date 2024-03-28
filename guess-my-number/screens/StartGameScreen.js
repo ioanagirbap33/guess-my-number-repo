@@ -11,8 +11,10 @@ export const StartGameScreen = () => {
         autoCapitalize="none"
         autoCorrect={false}
       />
-      <PrimaryButton>Reset</PrimaryButton>
-      <PrimaryButton>Confirm</PrimaryButton>
+      <View>
+        <PrimaryButton>Reset</PrimaryButton>
+        <PrimaryButton>Confirm</PrimaryButton>
+      </View>
     </View>
   );
 };
@@ -22,12 +24,13 @@ const styles = StyleSheet.create({
     marginTop: 100,
     marginHorizontal: 24,
     padding: 16,
-    backgroundColor: "#72063c",
+    backgroundColor: "#4e0329",
     borderRadius: 8,
     shadowColor: "black",
     shadowOffset: { width: 0, height: 2 },
     shadowRadius: 6,
     shadowOpacity: 0.25,
+    alignItems: "center",
   },
   numberInput: {
     height: 50,
