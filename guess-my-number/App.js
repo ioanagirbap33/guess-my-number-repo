@@ -6,6 +6,7 @@ export default function App() {
   return (
     <View>
       <StartGameScreen />
+      <View></View>
     </View>
   );
 }
